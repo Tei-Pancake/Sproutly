@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sproutly</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <aside class="sidebar">
+        <!-- barra lateral -->
+            <h2 id="app-name">Sproutly</h2>
+
+            <nav>
+                <a href="#" id="home-link">Inicio</a>
+                <a href="#">Tareas</a>
+                <a href="#">Jardin</a>
+                <a href="#">Progreso</a>
+                <a href="#" id="settings-link">Ajustes</a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <button id="toggle-sidebar">☰</button>
+            <!-- Where your ideas bloom -->
+             <!-- Organiza tus tareas, completalas y haz crecer un jardin mientras lo haces! -->
+        
+           <section class="tasks">
+                <h2 id="tasks-title">Mis Tareas</h2>
+            
+                <div id="task-list"></div>
+
+
+                <div class="task-input-area">
+                    <input type="text" id="task-input" placeholder="Escribe una tarea...">
+                    <button id="add-task">Agregar</button>
+                </div>
+            
+           </section>
+
+           <section class="settings">
+                <h2 id="settings-title">Ajustes</h2>
+
+                <div class="setting">
+                    <h3 id="appearance-title">Apariencia</h3>
+                    <p id="theme-text">Modo de color</p>
+
+                    <select id="theme-selector">
+                        <option value="light" id="light-option">Claro</option>
+                        <option value="dark" id="dark-option">Oscuro</option>
+                    </select>
+                </div>
+
+                <div class="setting">
+                    <h3 id="task-background-title">Fondo de tareas</h3>
+                    <p id="task-background-text">Selecciona un color de fondo para tus tareas</p>
+                         <!-- Ya arregle esto -->
+                    <div class="color-options">
+                        <button class="color-option green" data-color="#f6f8f2"></button>
+                        <button class="color-option red" data-color="#f3c6c6"></button>
+                        <button class="color-option purple" data-color="#d9c7e8"></button>
+                        <button class="color-option yellow" data-color="#f3e4a8"></button>
+                    </div>
+                </div>
+
+                <div class="setting">
+                    <h3 id="language-title">Idioma</h3>
+
+                    <select id="language-selector">
+                        <option value="es" id="spanish-option">Español</option>
+                        <option value="en" id="english-option">English</option>
+                    </select>
+                </div>
+            </section>
+
+        </main>
+    <script src="script.js"></script>
+</body>
+</html>
