@@ -2,6 +2,7 @@
 Do you have a lot of taks and dont know where start? 
 WELL you could add them here and administrate it, no downloads, no ads, no premium pays, just you, and your tasks.
 
+
 # Sproutly is...
 
  A simple and minimal web app designed to help you organize your tasks and keep them where they should be **out of your head.**
@@ -9,6 +10,7 @@ WELL you could add them here and administrate it, no downloads, no ads, no premi
 I started making this project because I wanted a simple way to organize the things I needed to do. There are already many great productivity apps out there, but I noticed that some of them require accounts, subscriptions, or even a credit card just to get started.
 
 Don't get me wrong, there are some really good options. I just wanted to make something that felt simple, different, and mine.
+
 
 # Features
 
@@ -19,6 +21,7 @@ Don't get me wrong, there are some really good options. I just wanted to make so
 * English and Spanish language support
 * Customizable task background
 * Minimal and distraction-free interface
+
 
 # What I Learned
 
@@ -33,6 +36,7 @@ Some of the things I learned were:
 * How HTML, CSS, and JavaScript work together to create an interactive application
 
 One of the biggest things I learned was that building something from scratch is very different from just following a tutorial. I had to actually understand why my code worked and figure out what was happening when something broke.
+
 
 # What I Struggled With
 
@@ -50,8 +54,6 @@ I had to learn how to:
 7. Remove the correct task when it is deleted
 
 Another challenge was making different parts of the interface work together without making the code unnecessarily complicated.
-
-
 
 I made it because I wanted to answer a simpler question:
 Can I make a productivity tool that is useful without feeling overwhelming?
