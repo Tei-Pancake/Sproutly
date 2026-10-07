@@ -16,7 +16,7 @@ Don't get me wrong, there are some really good options. I just wanted to make so
 
 * Add and delete tasks
 * Mark tasks as completed
-* Tasks are saved using `localStorage`
+* Tasks are saved using localStorage
 * Light and dark mode
 * English and Spanish language support
 * Customizable task background
@@ -47,7 +47,7 @@ I had to learn how to:
 
 1. Store the tasks in an array
 2. Convert the array into JSON
-3. Save it to `localStorage`
+3. Save it to localStorage
 4. Load it again when the page start
 5. Render the saved tasks
 6. Update the stored data when a checkbox changes
